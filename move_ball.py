@@ -20,7 +20,7 @@ def main(stdscr):
         stdscr.refresh()
 
         key = stdscr.getch()
-
+	# YR's change ~~
         if key == curses.KEY_UP and y > 0:
             y -= 1
         elif key == curses.KEY_DOWN and y < height - 1:
