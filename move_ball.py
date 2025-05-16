@@ -32,4 +32,6 @@ def main(stdscr):
         elif key == ord('q'):
             break
 
+# DJ's change ~~
+
 curses.wrapper(main)
